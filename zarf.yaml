@@ -1,0 +1,13 @@
+kind: ZarfPackageConfig
+metadata:
+  name: edison
+  version: 0.1.0
+components:
+  - name: edison
+    required: true
+    images:
+      - edison:0.1.0
+    manifests:
+      - name: edison
+        files:
+          - uds/manifests.yaml
