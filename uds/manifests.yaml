@@ -53,3 +53,10 @@ spec:
         gateway: tenant
         host: edison
         port: 8080
+  sso:
+    - name: Edison
+      clientId: uds-edison
+      redirectUris:
+        - "https://edison.uds.dev/login"
+      enableAuthserviceSelector:
+        app.kubernetes.io/name: edison

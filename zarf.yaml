@@ -1,7 +1,7 @@
 kind: ZarfPackageConfig
 metadata:
   name: edison
-  version: 0.1.0
+  version: 0.1.1
 components:
   - name: edison
     required: true
