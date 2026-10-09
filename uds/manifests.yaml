@@ -57,6 +57,6 @@ spec:
     - name: Edison
       clientId: uds-edison
       redirectUris:
-        - "https://edison.uds.dev/login"
+        - "https://edison.apps.test.factory.saic.com/login"
       enableAuthserviceSelector:
         app.kubernetes.io/name: edison
